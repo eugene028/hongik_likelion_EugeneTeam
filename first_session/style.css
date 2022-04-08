@@ -1,0 +1,17 @@
+.totalScreen {
+    background-color: antiquewhite;
+}
+#img {
+    width: 600px;
+    margin: 0 auto;
+}
+.textbox {
+    background-color:rgb(136, 207, 136);
+    border: 3px solid;
+    border-radius: 15px;
+    width: 800px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
