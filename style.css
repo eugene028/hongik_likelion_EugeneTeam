@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0 0 20;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+    color: #666666;
+    margin: 0 0 20;
+    text-align: left;
+}
+
+.data-text {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.explain-text {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.recipe-title-text {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mainbox {
+    width: 700px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ingredient-explain-box {
+    font-size: 16px;
+    text-align: center;
+    background-color: #DBEB94;
+    margin: 30px 0px;
+    padding: 10px;
+    border: 1px solid #222222;
+}
+
+.recipe-box {
+    font-size: 16px;
+    text-align: center;
+    margin: 30px 0px;
+    padding: 25px 30px;
+    border: 1px solid #b6b3b3;
+    border-radius: 20px 20px;
+}
+
+.icon-img {
+    width:152px;
+    height:117px;
+    display: block;
+    margin: 0 auto;
+}
+
+.full-size-img {
+    width:700px;
+    height:500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.float-wrap {
+    overflow: hidden;
+}
+
+.small-left-img {
+    width:350px;
+    height:250px;
+    float: left;
+}
+
+.small-right-img{
+    width:350px;
+    height:250px;
+    float: right;
+}
