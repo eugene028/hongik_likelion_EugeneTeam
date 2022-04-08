@@ -1,0 +1,53 @@
+
+body{
+    text-align: center;
+    margin: 50px;
+    color: rgb(53, 37, 12);
+}
+.rec img{
+    width: 750px;
+    height: 600px;
+}
+.img-two img{
+    width: 370px;
+    height: 300px;
+}
+.rec {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.ingredients-list{
+    padding-top:10px ;
+    background-color: rgb(243, 216, 163);
+    width: 750px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 1px solid rgb(238, 171, 69);
+    border-radius: 5px;
+}
+.desc{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.box1{
+    border:1px solid rgb(188, 185, 185);
+    border-radius: 4px;
+    width: 750px;
+    margin: auto;
+    height: 70px;
+    background-color: rgb(251, 213, 163);
+}
+.box2{
+    border:1px solid rgb(188, 185, 185);
+    width: 730px;
+    margin: auto;
+    padding-left:20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
