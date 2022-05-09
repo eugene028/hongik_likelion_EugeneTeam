@@ -6,8 +6,8 @@ headers = {
     'Host' : 'openapi.naver.com',
     'User-Agent' : 'curl/7.49.1',
     'Accept': '*/*',
-    'X-Naver-Client-Id' : 'LhnxEFBFtfU_t4FCpTNw',
-    'X-Naver-Client-Secret': 'dl1RIQJwGl',
+    'X-Naver-Client-Id' : '',
+    'X-Naver-Client-Secret': '',
 }
 
 url= 'https://openapi.naver.com/v1/search/movie.json'
@@ -30,8 +30,8 @@ print(link)
 print(director)
 
 
-client_id = "LhnxEFBFtfU_t4FCpTNw" # 위에서 받은 클라이언트 ID 넣어줌
-client_secret = "dl1RIQJwGl" # 위에서 받은 시크릿키 넣어줌
+client_id = "" # 위에서 받은 클라이언트 ID 넣어줌
+client_secret = "" # 위에서 받은 시크릿키 넣어줌
 
 encText = urllib.parse.quote("기생충")
 url = "https://openapi.naver.com/v1/search/movie.json?query=" + encText # json 결과
