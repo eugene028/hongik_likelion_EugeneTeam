@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title>Blog List</title>
+    </head>
+    <body>
+        <h1>게시판 목록입니다</h1>
+        <table>
+            {% for list in postlist %}
+                <ul>
+                    <li><a href="{{list.postname}}">{{list.postname}}</a></li>
+                    <!--path('blog/<title>', views.posting, name="posting"),이것과 같은 맥락으로 이어집니다-->
+                    
+                </ul>
+            {% endfor %}
+        </table>
+        <button><a href="new_post/">글쓰기</a></button>
+    </body>
+</html>
